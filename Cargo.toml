@@ -1,0 +1,36 @@
+[package]
+name = "fnum"
+version = "0.1.0"
+edition = "2021"
+authors = ["Rexfelix Paik <rexfelix@naver.com>"]
+description = "Calculate some math functions"
+homepage = "https://github.com/rexfelix/fnum"
+repository = "https://github.com/rexfelix/fnum"
+readme = "README.md"
+
+[lib]
+name = "fnum"
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2.131"
+
+[dependencies.pyo3]
+version = "0.16.5"
+features = ["extension-module"]
+
+[package.metadata.release]
+dev-version = false
+publish = false
+push = true
+
+[package.metadata.maturin]
+classifier = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python",
+    "Operating System :: POSIX",
+    "Operating System :: MacOS :: MacOS X",
+]
+requires-python = ">=3.7"
+
+

@@ -3,7 +3,8 @@
 a python library by rust  
 contains some math functions.
 
-This project is to show making Python library by Rust, especially via [maturin](https://github.com/PyO3/maturin.git) and pyo3. Look carefully at 'Cargo.toml',  'lib.rs' and project structure.
+This project is to show making Python library by Rust, especially via [maturin](https://github.com/PyO3/maturin.git) and pyo3.  
+Look carefully at 'Cargo.toml',  'lib.rs' and project structure.
 
 
 
